@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 20180327154904) do
 
   create_table "levels", force: :cascade do |t|
-    t.integer "level_number"
+    t.string "level_difficulty"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
