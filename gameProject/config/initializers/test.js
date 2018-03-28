@@ -15,6 +15,8 @@ function postData(){
   .then(res => res.json())
   .then(console.log)
 }
-function postData(){
-  return fetch('')
-}
+function checkData(){
+    return fetch('http://localhost:3000/levels/3')
+    .then(res => res.json())
+    .then(console.log)
+  }
